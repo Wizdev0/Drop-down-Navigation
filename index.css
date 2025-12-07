@@ -609,7 +609,7 @@ ul.company-dropdown{
 }
 
 .menu-btn.active span:nth-child(1) {
-    transform: rotate(45deg) translate(9px 9px);
+    transform: rotate(45deg) translate(9px, 9px);
 }
 
 .menu-btn.active span:nth-child(2){
@@ -617,7 +617,7 @@ ul.company-dropdown{
 }
 
 .menu-btn.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(9px -9px);
+    transform: rotate(-45deg) translate(9px, -9px);
 }
 
     /* MAIN */
@@ -708,9 +708,9 @@ ul.company-dropdown{
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 30px;
+        gap: 20px;
         width: 40px;
-        margin-left: 10px;
+        margin-left: 15px;
 
     }
 
