@@ -591,7 +591,7 @@ ul.company-dropdown{
    /*  SIDEBAR */
  #sidebar{
     position: fixed;
-    right: -250px;
+    right: -350px;
     top: 0;
     width: 260px;
     height: 100vh;
@@ -650,7 +650,7 @@ ul.company-dropdown{
 
     .h1{
         width: 100vw;
-        font-size: 35px;
+        font-size: 30px;
         display: flex;
         justify-content: center;
         
@@ -714,7 +714,7 @@ ul.company-dropdown{
     }
 
     .sponsors-div img{
-        width: 80px;
+        width: 70px;
         height: 19px;
     }
 
