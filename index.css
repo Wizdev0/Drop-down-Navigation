@@ -1,0 +1,738 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 98%);
+}
+
+/* HEADER */
+
+.header{
+    display: flex;
+    padding: 30px;
+}
+
+.link-and-login{
+    display: flex;
+    margin-left: 70px;
+    gap: 44vw;
+    font-family: "Epilogue", sans-serif;
+}
+
+
+.link ul.dropdown{
+    display: flex;
+    gap: 50px;
+}
+
+.link li{
+    list-style: none;
+    font-weight: 500;
+   
+}
+
+.useless{
+    display: flex;
+    gap: 50px;
+    margin-left: -60px;
+}
+
+.link li {
+    display: flex;
+    color: hsl(0, 0%, 41%);
+    text-decoration: none;
+    gap: -20px;
+}
+
+.link li:hover{
+    color: black;
+    cursor: pointer;
+}
+
+/* ARROW FOR FEATURES */
+
+.Arrow-down{
+    margin-top: 3px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.Arrow-down:hover{
+   color: black;
+}
+
+.Arrow-down.show{
+    display: none;
+}
+
+.Arrow-up{
+    margin-top: 3px;
+    margin-left: 8px;
+    display: none;
+}
+
+.Arrow-up:hover{
+    color: black;
+}
+
+.Arrow-up.live{
+    display: flex;
+}
+
+.login-in-and-register{
+    display: flex;
+    gap: 40px;
+    color: hsl(0, 0%, 41%);
+}
+
+.log-in-p:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.register-p{
+    border: 1px solid  hsl(0, 0%, 41%);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: -10px;
+    outline: none;
+}
+
+.register-p:hover{
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* FEATURES DROPDOWN */
+
+.features-dropdown{
+    display: none;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: -180px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0,0,0, 0.1);
+    border-radius: 15px;
+    opacity: 0;
+    
+}
+
+
+
+.features-dropdown.show{
+    opacity: 1;
+    display: flex;
+}
+
+
+.features-dropdown li{
+    display: flex;
+    gap: 10px;
+    color:  hsl(0, 0%, 41%);
+    font-size: 16px;    
+    
+}
+
+ul.features-dropdown{
+    display: flex;
+    gap: 15px;
+}
+
+
+/* COMPANY DROPDOWN */
+
+.company-dropdown{
+    display: none;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: -100px;
+    padding: 40px;
+    padding-top: 25px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0,0,0, 0.1);
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    opacity: 0;
+}
+
+.company-dropdown.show{
+    opacity: 1;
+    display: flex;
+}
+
+ul.company-dropdown{
+     display: flex;
+    gap: 20px;
+}
+
+/* ARROWS FOR COMPANY */
+
+.Arrow-down-com{
+    margin-top: 3px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.Arrow-down-com:hover{
+   color: black;
+}
+
+.Arrow-down-com.show{
+    display: none;
+}
+
+.Arrow-up-com{
+    margin-top: 3px;
+    margin-left: 8px;
+    display: none;
+}
+
+.Arrow-up-com:hover{
+    color: black;
+}
+
+.Arrow-up-com.live{
+    display: flex;
+}
+
+/* MAIN */
+
+.main{
+    margin-left: 170px;
+    font-family: "Epilogue", sans-serif;
+    margin-top: -30px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.write-up{
+    width: 50%;
+}
+
+.h1{
+    margin-bottom: 20px;
+    width: 36vw;
+    font-size: 85px;
+    line-height: 0.9;
+}
+
+.sub{
+    margin-top: 60px;
+    width: 80%;
+    font-size: 18px;
+    line-height: 1.5;
+    color: grey;
+}
+
+/* MAIN IMAGE */
+
+.main-img{
+    margin-top: -140px;
+    margin-left: 25px;
+}
+
+/* WRITEUP BUTTON  */
+
+.write-up-btn{
+    margin-top: 70px;
+}
+
+.write-btn{
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    width: 150px;
+    font-size: 17px;
+    border-radius: 15px;
+    font-weight: 600;
+ 
+
+    transition: all 0.5s ease 0s;
+}
+
+.write-btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.sponsors-div{
+    margin-top: 190px;
+    display: flex;
+    gap: 30px;
+}
+
+.mob-image{
+    display: none;
+}
+
+
+.toggle-btn{
+    display: none;
+}
+
+/* MOBILE VIEW */
+
+@media only screen and (max-width:600px) {
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        width: 100vw;
+        margin: 0;
+
+    }
+
+    .main-img{
+        display: none;
+    }
+
+    .header{
+        display: flex;
+        padding: 0;
+        width: 90vw;
+        
+      
+    }
+
+    .link-and-login{
+      display: flex;
+      flex-direction: column;
+      font-family: "Epilogue", sans-serif;
+      margin-left: 40px;
+      margin-top: 90px;
+      gap: -10px;
+
+      transition: max-height 1s ease;
+    }
+
+    .link-and-login:hover{
+          color: black;
+        max-height: 220px;
+    }
+
+
+    .link ul.dropdown{
+      display: flex;
+      flex-direction: column;
+     row-gap: 0;
+    }
+
+    
+    .useless{
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      margin: 0; 
+      row-gap: 20px;
+      max-height: 0;
+
+      transition: max-height 1s ease;
+    }
+
+    .useless:hover{
+        color: black;
+        max-height: 220px;
+    }
+
+    .link li {
+      display: flex;
+      color: hsl(0, 0%, 41%);
+      text-decoration: none;
+      list-style: none;
+      font-weight: 500;
+        font-size: 19px;
+       
+    }
+
+    .link li:hover{
+        color: black;
+        cursor: pointer;
+    }
+
+
+    .link ul{
+        max-height: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*  MENU BUTTON */
+
+    .menu-btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    width: 30px;
+    height: 25px;
+    z-index: 2000;
+    }
+
+    .menu-btn span{
+    display: block;
+    height: 3px;
+    width: 140%;
+    background: black;
+    margin: 5px 0;
+    transition: 0.3s;
+    }
+
+    
+
+
+
+    .logo-img{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+
+    /* ARROW FOR FEATURES */
+
+    .Arrow-down{
+        margin-top: 3px;
+        margin-left: 10px;
+        display: flex;
+    }
+
+    .Arrow-down:hover{
+      color: black; 
+
+    }
+
+    .Arrow-down.show{
+        display: none;
+    }
+
+    .Arrow-up{
+        margin-top: 3px;
+        margin-left: 8px;
+        display: none;
+    }
+
+    .Arrow-up:hover{
+        color: black;
+    }
+
+    .Arrow-up.live{
+        display: flex;
+    }
+
+    .login-in-and-register{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        color: hsl(0, 0%, 41%);
+        margin-top: 55px;
+        justify-content: center;
+        text-align: center;
+        max-height: 0;
+
+        transition: all 0.3s ease;
+       
+    }
+
+    .login-in-and-register.show{
+        margin-top: 320px;
+    }
+
+    .login-in-and-register.lost{
+        margin-top: 200px;
+    }
+
+    .login-in-and-register.boom{
+        margin-top: 250px;
+    }
+
+
+    .log-in-p{
+        margin-left: -60px;
+    }
+
+    .log-in-p:hover{
+        color: black;
+        cursor: pointer;
+    }
+
+    .register-p{
+        border: 1px solid  hsl(0, 0%, 41%);
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: -10px;
+        outline: none;
+        width: 35vw;
+    }
+
+    .register-p:hover{
+        color: black;
+        border: 1px solid black;
+        cursor: pointer;
+    }
+
+
+
+    /* FEATURES DROPDOWN */
+
+    .features-dropdown{
+        display: none;
+        flex-direction: column;
+        margin-left: -65px;
+        border-radius: 15px;
+        box-shadow: none;
+        background-color: none;
+        opacity: 0;
+        margin-top: 40px;
+        max-height: 0;
+        transition: max-height 0.3 sec ease;
+    }
+
+
+
+    .features-dropdown.show {
+        opacity: 1;
+        display: flex;
+        max-height: 220px;
+        margin-bottom: 25px;
+    }
+
+
+    .features-dropdown li{
+        display: flex;
+        gap: 20px;
+        color:  hsl(0, 0%, 41%);
+        font-size: 17.5px;    
+  
+    }
+
+    ul.features-dropdown{
+        display: flex;
+        gap: 20px;
+    }
+
+
+    /* COMPANY DROPDOWN */
+
+    .company-dropdown{
+        display: none;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-left: -65px;
+        padding: 40px;
+        padding-top: 25px;
+        background-color: none;
+        box-shadow: none;
+        border-radius: 15px;
+        width: 150px;
+        height: 150px;
+        opacity: 0;
+        max-height: 0;
+        transition: max-height 0.3 sec ease;
+    }
+
+    .company-dropdown.show{
+        opacity: 1;
+        display: flex;
+        max-height: 220px;
+        margin-bottom: 15px;
+    }
+
+    ul.company-dropdown{
+        display: flex;
+        gap: 20px;
+    }
+
+    /* ARROWS FOR COMPANY */
+
+    .Arrow-down-com{
+        margin-top: 3px;
+        margin-left: 10px;
+        display: flex;
+    }
+
+    .Arrow-down-com:hover{
+    color: black;
+    }
+
+    .Arrow-down-com.show{
+        display: none;
+    }
+
+    .Arrow-up-com{
+        margin-top: 3px;
+        margin-left: 8px;
+        display: none;
+    }
+
+    .Arrow-up-com:hover{
+        color: black;
+    }
+
+    .Arrow-up-com.live{
+        display: flex;
+    }
+
+
+   /*  SIDEBAR */
+ #sidebar{
+    position: fixed;
+    right: -250px;
+    top: 0;
+    width: 260px;
+    height: 100vh;
+    background: white;
+    color: black;
+    transition: 0.3s ease;
+    padding: 20px;
+    z-index: 1000;
+    box-shadow: 0px 6px 8px rgba(0,0,0, 0.1);
+
+}
+
+#sidebar.active{
+    right: 0;
+}
+
+.menu-btn.active span:nth-child(1) {
+    transform: rotate(45deg) translateY(9px);
+}
+
+.menu-btn.active span:nth-child(2){
+    opacity: 0;
+}
+
+.menu-btn.active span:nth-child(3) {
+    transform: rotate(-45deg) translateY(-9px);
+}
+
+    /* MAIN */
+
+    .mob-image{
+        display: flex;
+        width: 100vw;
+        margin-top: 30px;
+    }
+
+    .main{
+        font-family: "Epilogue", sans-serif;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-left: 0;
+        column-gap: none;
+        row-gap: none;
+    }
+
+    .write-up{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h1{
+        width: 100vw;
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .main-sub{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sub{
+        margin-top: 10px;
+        width: 70vw;
+        font-size: 15px;
+        line-height: 1.5;
+        color: grey;
+        text-align: center;
+        display: flex;        
+    }
+
+ 
+    /* WRITEUP BUTTON  */
+
+    .write-up-btn{
+        margin-top: 40px;
+    }
+
+    .write-btn{
+        border: none;
+        color: white;
+        background-color: black;
+        padding: 15px;
+        width: 150px;
+        font-size: 17px;
+        border-radius: 15px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+
+        transition: all 0.5s ease 0s;
+    }
+
+    .write-btn:hover{
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        border: 1px solid black;
+    }
+
+    .sponsors-div{
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        width: 40px;
+
+    }
+
+    .sponsors-div img{
+        width: 80px;
+        height: 19px;
+    }
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vh;
+        height: 100vh;
+        background: rgba(0,0,0,0);
+        pointer-events: none;
+        transition: background 0.3 ease;
+        z-index: 500;
+    }
+
+
+    .overlay.active{
+        background: rgba(0,0,0, 0.5);
+        pointer-events: all;
+    }
+}

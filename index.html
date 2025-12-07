@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="Assets/favicon-32x32.png">
+  <script type="module" src="main.js"></script>
+</head>
+<body>
+  <div class="container">
+
+
+    
+    <div class="header">
+      <div class="logo">
+        <img src="Assets/logo.svg" alt="Logo" class="logo-img">
+      </div>
+
+       <!-- TOOGLE BUTTON -->
+            <button id="toggleBtn" class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+         </button>
+
+
+      <nav class="sidebar" id="sidebar">
+
+
+        <div class="link-and-login">
+
+      
+
+          <div class="link">
+            <ul class="dropdown">
+              <li id="features" class="features">Features<img src="Assets/icon-arrow-down.svg" alt="Arrow Down" width="8px" height="8px" class="Arrow-down"> <img src="Assets/icon-arrow-up.svg" alt="Arrow Up" class="Arrow-up" width="8px" height="8px">
+                
+                <ul class="features-dropdown">
+                  <li><img src="Assets/icon-todo.svg" alt="Todo icon">Todo List</li>
+                  <li><img src="Assets/icon-calendar.svg" alt="Calendar">Calendar</li>
+                  <li><img src="Assets/icon-reminders.svg" alt="Reminders Icon">Reminders</li>
+                  <li><img src="Assets/icon-planning.svg" alt="Planning icon">Planning</li>
+                </ul>
+              </li>
+
+              <li id="company" class="company">Company<img src="Assets/icon-arrow-down.svg" alt="Arrow Down" width="8px" height="8px" class="Arrow-down-com"> <img src="Assets/icon-arrow-up.svg" alt="Arrow Up" class="Arrow-up-com" width="8px" height="8px">
+                
+                <ul class="company-dropdown">
+                  <li>History</li>
+                  <li>Our Team</li>
+                  <li>Blog</li>
+                </ul>
+
+              </li>
+              <div class="useless">
+                <li>Careers</li>
+                <li>About</li>
+              </div>
+            </ul>
+          </div>
+
+
+
+          <div class="login-in-and-register">
+            <div class="log-in">
+              <p class="log-in-p">Login</p>
+            </div>
+
+            <div class="register">
+              <p class="register-p">Register</p>
+            </div>
+          </div>
+
+          
+        </div>
+
+        
+      </nav>  
+    </div>  
+
+    
+
+
+    <!-- MOBILE-IMAGE -->
+    <div class="mobile-image">
+      <img src="Assets/image-hero-mobile.png" alt="image-hero-mobile" class="mob-image">
+    </div>
+
+    <div class="main">
+      <div class="write-up">
+
+        <div class="main-h1">
+          <h1 class="h1">
+            Make remote work
+          </h1>
+        </div>
+
+        <div class="main-sub">
+          <p class="sub">Get your team in sync, no matter your location, Streamline processes, create team rituals, and watch productivity soar.</p>
+        </div>
+
+        <div class="write-up-btn">
+          <button class="write-btn">
+            Learn more
+          </button>
+        </div>
+
+        <div class="sponsors-div">
+        <img src="Assets/client-databiz.svg" alt="client-databiz" height="20px" width="100px">
+        <img src="Assets/client-audiophile.svg" alt="client-audiophile" height="45px" width="90px">
+        <img src="Assets/client-meet.svg" alt="client-meet" height="20px" width="100px">
+        <img src="Assets/client-maker.svg" alt="client-maker" height="30px" width="100px">
+        </div>
+
+      </div>
+
+
+      <div class="main-image">
+        <img src="Assets/image-hero-desktop.png" alt="image-hero-desktop" class="main-img" width="90%">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="overlay" id="overlay"></div>
+
+</body>
+</html>
