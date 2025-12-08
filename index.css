@@ -769,4 +769,8 @@ ul.company-dropdown{
     display: none;
   }
 
+  .login-in-and-register{
+    margin-left: -30px;
+  }
+
 }
