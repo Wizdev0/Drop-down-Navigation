@@ -18,6 +18,11 @@ body{
     padding: 30px;
 }
 
+.menu-btn{
+    display: none;
+}
+
+
 .link-and-login{
     display: flex;
     margin-left: 70px;
