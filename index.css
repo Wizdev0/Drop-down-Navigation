@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
 *{
@@ -281,6 +282,7 @@ ul.company-dropdown{
 .toggle-btn{
     display: none;
 }
+
 
 /* MOBILE VIEW */
 
@@ -736,4 +738,29 @@ ul.company-dropdown{
         background: rgba(0,0,0, 0.5);
         pointer-events: all;
     }
+
+}
+
+
+
+/* Tablets (600px – 1024px) */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .mob-image{
+    display: none;
+  }
+
+  .main-img{
+    margin-top: -30px;
+    width: 50vw;
+    height: auto;
+  }
+
+  .sponsors-div{
+    margin-top: 120px;
+  }
+
+  .menu-btn{
+    display: none;
+  }
+
 }
