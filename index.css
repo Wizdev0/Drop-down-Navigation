@@ -389,6 +389,7 @@ ul.company-dropdown{
     width: 30px;
     height: 25px;
     z-index: 2000;
+    display: block;
     }
 
     .menu-btn span{
@@ -761,7 +762,7 @@ ul.company-dropdown{
   }
 
   .sponsors-div{
-    margin-top: 120px;
+    margin-top: 100px;
   }
 
   .menu-btn{
